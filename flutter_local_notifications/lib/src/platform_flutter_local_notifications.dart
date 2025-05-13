@@ -963,6 +963,7 @@ class MacOSFlutterLocalNotificationsPlugin
       <String, Object?>{
         'id': id,
         'title': title,
+        'subtitle': notificationDetails?.subtitle,
         'body': body,
         'payload': payload ?? '',
         'platformSpecifics': notificationDetails?.toMap(),
